@@ -7,3 +7,33 @@ body {
   text-align: center;
   margin: 0;
 }
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+.logo-container img {
+  position: fixed;
+  left: 10px;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  right: 10px;
+}
+
+nav span {
+  padding-left: 25px;
+}
+
+nav a {
+  text-decoration: underline;
+  color: seashell;
+}
