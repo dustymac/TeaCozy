@@ -40,7 +40,7 @@ nav a {
   color: seashell;
 }
 
-.content {
+.hero-layout {
   display: flex;
   justify-content: center;
   position: relative;
@@ -54,9 +54,26 @@ nav a {
   height: 700px;
   width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
+
 }
 
 .mission-container {
   background-color: black;
   width: 100%;
+}
+
+.totm-container {
+  display: block;
+  width: 1000px;
+  margin: auto;
+  }
+
+.totm-listings {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.totm-item img {
+  height: 200px;
 }
