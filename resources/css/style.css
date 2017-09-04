@@ -85,4 +85,36 @@ nav a {
 
 .totm-item img {
   height: 200px;
+  width: 300px;
+}
+
+.locations-container {
+  display: block;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.locations-container h2 {
+  padding-top: 70px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.locations-listings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-item {
+  margin: 20px 15px;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+}
+
+.location-item p {
+  padding-bottom: 20px;
 }
