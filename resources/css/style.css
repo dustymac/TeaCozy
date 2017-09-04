@@ -74,6 +74,15 @@ nav a {
   flex-wrap: wrap;
 }
 
+.totm-item {
+  padding: 10px;
+}
+
+.totm-item span {
+  display: block;
+  padding: 5px;
+}
+
 .totm-item img {
   height: 200px;
 }
