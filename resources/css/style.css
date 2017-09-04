@@ -65,7 +65,7 @@ nav a {
 .totm-container {
   display: block;
   width: 1000px;
-  margin: auto;
+  margin: 50px auto;
   }
 
 .totm-listings {
@@ -92,7 +92,7 @@ nav a {
   display: block;
   height: 500px;
   width: 1200px;
-  margin: auto;
+  margin: 50px auto 0px auto;
   background-image: url("../images/img-locations-background.jpg");
 }
 
@@ -117,4 +117,17 @@ nav a {
 
 .location-item p {
   padding-bottom: 20px;
+}
+
+footer {
+  height: 200px;
+}
+
+footer h2 {
+  margin-top: 10px;
+}
+
+.copyright {
+  margin-left: 20px;
+  text-align: left;
 }
